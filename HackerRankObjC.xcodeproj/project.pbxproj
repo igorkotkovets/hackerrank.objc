@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84826A324AC68A50023F2FA /* MinMaxSum.m in Sources */ = {isa = PBXBuildFile; fileRef = D84826A224AC68A50023F2FA /* MinMaxSum.m */; };
+		D84826A524AC68B70023F2FA /* MinMaxSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D84826A424AC68B70023F2FA /* MinMaxSumTests.m */; };
+		D84826A624AC68C00023F2FA /* MinMaxSum.m in Sources */ = {isa = PBXBuildFile; fileRef = D84826A224AC68A50023F2FA /* MinMaxSum.m */; };
 		D8D0D4F324AC36AE003003B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D4F224AC36AE003003B5 /* AppDelegate.m */; };
 		D8D0D4F624AC36AE003003B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D4F524AC36AE003003B5 /* SceneDelegate.m */; };
 		D8D0D4F924AC36AE003003B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D4F824AC36AE003003B5 /* ViewController.m */; };
@@ -14,7 +17,6 @@
 		D8D0D4FE24AC36AF003003B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D0D4FD24AC36AF003003B5 /* Assets.xcassets */; };
 		D8D0D50124AC36AF003003B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D0D4FF24AC36AF003003B5 /* LaunchScreen.storyboard */; };
 		D8D0D50424AC36AF003003B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D50324AC36AF003003B5 /* main.m */; };
-		D8D0D50E24AC36AF003003B5 /* HackerRankObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D50D24AC36AF003003B5 /* HackerRankObjCTests.m */; };
 		D8D0D51E24AC3752003003B5 /* Staircase.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D51D24AC3752003003B5 /* Staircase.m */; };
 		D8D0D52024AC376A003003B5 /* StaircaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D51F24AC376A003003B5 /* StaircaseTests.m */; };
 		D8D0D52124AC37C1003003B5 /* Staircase.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D51D24AC3752003003B5 /* Staircase.m */; };
@@ -31,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D84826A124AC68A50023F2FA /* MinMaxSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinMaxSum.h; sourceTree = "<group>"; };
+		D84826A224AC68A50023F2FA /* MinMaxSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinMaxSum.m; sourceTree = "<group>"; };
+		D84826A424AC68B70023F2FA /* MinMaxSumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinMaxSumTests.m; sourceTree = "<group>"; };
 		D8D0D4EE24AC36AE003003B5 /* HackerRankObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerRankObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D0D4F124AC36AE003003B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8D0D4F224AC36AE003003B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,7 +49,6 @@
 		D8D0D50224AC36AF003003B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8D0D50324AC36AF003003B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8D0D50924AC36AF003003B5 /* HackerRankObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerRankObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8D0D50D24AC36AF003003B5 /* HackerRankObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerRankObjCTests.m; sourceTree = "<group>"; };
 		D8D0D50F24AC36AF003003B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8D0D51C24AC3752003003B5 /* Staircase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Staircase.h; sourceTree = "<group>"; };
 		D8D0D51D24AC3752003003B5 /* Staircase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Staircase.m; sourceTree = "<group>"; };
@@ -69,6 +73,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D848269F24AC68680023F2FA /* Staircase */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0D51C24AC3752003003B5 /* Staircase.h */,
+				D8D0D51D24AC3752003003B5 /* Staircase.m */,
+			);
+			path = Staircase;
+			sourceTree = "<group>";
+		};
+		D84826A024AC687B0023F2FA /* Min-MaxSum */ = {
+			isa = PBXGroup;
+			children = (
+				D84826A124AC68A50023F2FA /* MinMaxSum.h */,
+				D84826A224AC68A50023F2FA /* MinMaxSum.m */,
+			);
+			path = "Min-MaxSum";
+			sourceTree = "<group>";
+		};
 		D8D0D4E524AC36AE003003B5 = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				D8D0D51A24AC36EC003003B5 /* Algorithms */,
-				D8D0D50D24AC36AF003003B5 /* HackerRankObjCTests.m */,
 				D8D0D50F24AC36AF003003B5 /* Info.plist */,
 			);
 			path = HackerRankObjCTests;
@@ -127,8 +148,8 @@
 		D8D0D51924AC36E1003003B5 /* Warmup */ = {
 			isa = PBXGroup;
 			children = (
-				D8D0D51C24AC3752003003B5 /* Staircase.h */,
-				D8D0D51D24AC3752003003B5 /* Staircase.m */,
+				D84826A024AC687B0023F2FA /* Min-MaxSum */,
+				D848269F24AC68680023F2FA /* Staircase */,
 			);
 			path = Warmup;
 			sourceTree = "<group>";
@@ -145,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				D8D0D51F24AC376A003003B5 /* StaircaseTests.m */,
+				D84826A424AC68B70023F2FA /* MinMaxSumTests.m */,
 			);
 			path = Warmup;
 			sourceTree = "<group>";
@@ -252,6 +274,7 @@
 				D8D0D4F924AC36AE003003B5 /* ViewController.m in Sources */,
 				D8D0D51E24AC3752003003B5 /* Staircase.m in Sources */,
 				D8D0D4F324AC36AE003003B5 /* AppDelegate.m in Sources */,
+				D84826A324AC68A50023F2FA /* MinMaxSum.m in Sources */,
 				D8D0D50424AC36AF003003B5 /* main.m in Sources */,
 				D8D0D4F624AC36AE003003B5 /* SceneDelegate.m in Sources */,
 			);
@@ -262,7 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D0D52124AC37C1003003B5 /* Staircase.m in Sources */,
-				D8D0D50E24AC36AF003003B5 /* HackerRankObjCTests.m in Sources */,
+				D84826A524AC68B70023F2FA /* MinMaxSumTests.m in Sources */,
+				D84826A624AC68C00023F2FA /* MinMaxSum.m in Sources */,
 				D8D0D52024AC376A003003B5 /* StaircaseTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
