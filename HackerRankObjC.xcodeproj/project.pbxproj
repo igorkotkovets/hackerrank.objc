@@ -13,6 +13,9 @@
 		D84DCB2724ADB3C900375353 /* BirthdayCakeCandles.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DCB2624ADB3C900375353 /* BirthdayCakeCandles.m */; };
 		D84DCB2924ADB3E100375353 /* BirthdayCakeCandlesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DCB2824ADB3E100375353 /* BirthdayCakeCandlesTests.m */; };
 		D84DCB2A24ADB4E400375353 /* BirthdayCakeCandles.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DCB2624ADB3C900375353 /* BirthdayCakeCandles.m */; };
+		D8A5E77924AE2526001C7D25 /* TimeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E77824AE2526001C7D25 /* TimeConversion.m */; };
+		D8A5E77B24AE2571001C7D25 /* TimeConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E77A24AE2571001C7D25 /* TimeConversionTests.m */; };
+		D8A5E77C24AE2575001C7D25 /* TimeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E77824AE2526001C7D25 /* TimeConversion.m */; };
 		D8D0D4F324AC36AE003003B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D4F224AC36AE003003B5 /* AppDelegate.m */; };
 		D8D0D4F624AC36AE003003B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D4F524AC36AE003003B5 /* SceneDelegate.m */; };
 		D8D0D4F924AC36AE003003B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D4F824AC36AE003003B5 /* ViewController.m */; };
@@ -42,6 +45,9 @@
 		D84DCB2524ADB3C900375353 /* BirthdayCakeCandles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirthdayCakeCandles.h; sourceTree = "<group>"; };
 		D84DCB2624ADB3C900375353 /* BirthdayCakeCandles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayCakeCandles.m; sourceTree = "<group>"; };
 		D84DCB2824ADB3E100375353 /* BirthdayCakeCandlesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayCakeCandlesTests.m; sourceTree = "<group>"; };
+		D8A5E77724AE2526001C7D25 /* TimeConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeConversion.h; sourceTree = "<group>"; };
+		D8A5E77824AE2526001C7D25 /* TimeConversion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeConversion.m; sourceTree = "<group>"; };
+		D8A5E77A24AE2571001C7D25 /* TimeConversionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeConversionTests.m; sourceTree = "<group>"; };
 		D8D0D4EE24AC36AE003003B5 /* HackerRankObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerRankObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D0D4F124AC36AE003003B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8D0D4F224AC36AE003003B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +112,15 @@
 			path = "Birthday Cake Candles ";
 			sourceTree = "<group>";
 		};
+		D8A5E77624AE24F6001C7D25 /* Time Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				D8A5E77724AE2526001C7D25 /* TimeConversion.h */,
+				D8A5E77824AE2526001C7D25 /* TimeConversion.m */,
+			);
+			path = "Time Conversion";
+			sourceTree = "<group>";
+		};
 		D8D0D4E524AC36AE003003B5 = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +178,7 @@
 		D8D0D51924AC36E1003003B5 /* Warmup */ = {
 			isa = PBXGroup;
 			children = (
+				D8A5E77624AE24F6001C7D25 /* Time Conversion */,
 				D84DCB2424ADB3AD00375353 /* Birthday Cake Candles  */,
 				D84826A024AC687B0023F2FA /* Min-MaxSum */,
 				D848269F24AC68680023F2FA /* Staircase */,
@@ -184,6 +200,7 @@
 				D8D0D51F24AC376A003003B5 /* StaircaseTests.m */,
 				D84826A424AC68B70023F2FA /* MinMaxSumTests.m */,
 				D84DCB2824ADB3E100375353 /* BirthdayCakeCandlesTests.m */,
+				D8A5E77A24AE2571001C7D25 /* TimeConversionTests.m */,
 			);
 			path = Warmup;
 			sourceTree = "<group>";
@@ -288,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A5E77924AE2526001C7D25 /* TimeConversion.m in Sources */,
 				D8D0D4F924AC36AE003003B5 /* ViewController.m in Sources */,
 				D8D0D51E24AC3752003003B5 /* Staircase.m in Sources */,
 				D8D0D4F324AC36AE003003B5 /* AppDelegate.m in Sources */,
@@ -302,11 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A5E77C24AE2575001C7D25 /* TimeConversion.m in Sources */,
 				D8D0D52124AC37C1003003B5 /* Staircase.m in Sources */,
 				D84DCB2924ADB3E100375353 /* BirthdayCakeCandlesTests.m in Sources */,
 				D84826A524AC68B70023F2FA /* MinMaxSumTests.m in Sources */,
 				D84826A624AC68C00023F2FA /* MinMaxSum.m in Sources */,
 				D8D0D52024AC376A003003B5 /* StaircaseTests.m in Sources */,
+				D8A5E77B24AE2571001C7D25 /* TimeConversionTests.m in Sources */,
 				D84DCB2A24ADB4E400375353 /* BirthdayCakeCandles.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
