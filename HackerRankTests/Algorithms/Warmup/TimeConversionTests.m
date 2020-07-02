@@ -21,7 +21,7 @@
 
     NSString *dateIn24Format = [timeConversion timeConversion:inDate];
 
-    XCTAssertEqualObjects(@"24:00:00", dateIn24Format);
+    XCTAssertEqualObjects(@"12:00:00", dateIn24Format);
 }
 
 - (void)testTimeConversion2 {
