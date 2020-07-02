@@ -10,6 +10,9 @@
 		D84826A324AC68A50023F2FA /* MinMaxSum.m in Sources */ = {isa = PBXBuildFile; fileRef = D84826A224AC68A50023F2FA /* MinMaxSum.m */; };
 		D84826A524AC68B70023F2FA /* MinMaxSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D84826A424AC68B70023F2FA /* MinMaxSumTests.m */; };
 		D84826A624AC68C00023F2FA /* MinMaxSum.m in Sources */ = {isa = PBXBuildFile; fileRef = D84826A224AC68A50023F2FA /* MinMaxSum.m */; };
+		D84DCB2724ADB3C900375353 /* BirthdayCakeCandles.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DCB2624ADB3C900375353 /* BirthdayCakeCandles.m */; };
+		D84DCB2924ADB3E100375353 /* BirthdayCakeCandlesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DCB2824ADB3E100375353 /* BirthdayCakeCandlesTests.m */; };
+		D84DCB2A24ADB4E400375353 /* BirthdayCakeCandles.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DCB2624ADB3C900375353 /* BirthdayCakeCandles.m */; };
 		D8D0D4F324AC36AE003003B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D4F224AC36AE003003B5 /* AppDelegate.m */; };
 		D8D0D4F624AC36AE003003B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D4F524AC36AE003003B5 /* SceneDelegate.m */; };
 		D8D0D4F924AC36AE003003B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D4F824AC36AE003003B5 /* ViewController.m */; };
@@ -36,6 +39,9 @@
 		D84826A124AC68A50023F2FA /* MinMaxSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinMaxSum.h; sourceTree = "<group>"; };
 		D84826A224AC68A50023F2FA /* MinMaxSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinMaxSum.m; sourceTree = "<group>"; };
 		D84826A424AC68B70023F2FA /* MinMaxSumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinMaxSumTests.m; sourceTree = "<group>"; };
+		D84DCB2524ADB3C900375353 /* BirthdayCakeCandles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirthdayCakeCandles.h; sourceTree = "<group>"; };
+		D84DCB2624ADB3C900375353 /* BirthdayCakeCandles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayCakeCandles.m; sourceTree = "<group>"; };
+		D84DCB2824ADB3E100375353 /* BirthdayCakeCandlesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayCakeCandlesTests.m; sourceTree = "<group>"; };
 		D8D0D4EE24AC36AE003003B5 /* HackerRankObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerRankObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D0D4F124AC36AE003003B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8D0D4F224AC36AE003003B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +95,15 @@
 				D84826A224AC68A50023F2FA /* MinMaxSum.m */,
 			);
 			path = "Min-MaxSum";
+			sourceTree = "<group>";
+		};
+		D84DCB2424ADB3AD00375353 /* Birthday Cake Candles  */ = {
+			isa = PBXGroup;
+			children = (
+				D84DCB2524ADB3C900375353 /* BirthdayCakeCandles.h */,
+				D84DCB2624ADB3C900375353 /* BirthdayCakeCandles.m */,
+			);
+			path = "Birthday Cake Candles ";
 			sourceTree = "<group>";
 		};
 		D8D0D4E524AC36AE003003B5 = {
@@ -148,6 +163,7 @@
 		D8D0D51924AC36E1003003B5 /* Warmup */ = {
 			isa = PBXGroup;
 			children = (
+				D84DCB2424ADB3AD00375353 /* Birthday Cake Candles  */,
 				D84826A024AC687B0023F2FA /* Min-MaxSum */,
 				D848269F24AC68680023F2FA /* Staircase */,
 			);
@@ -167,6 +183,7 @@
 			children = (
 				D8D0D51F24AC376A003003B5 /* StaircaseTests.m */,
 				D84826A424AC68B70023F2FA /* MinMaxSumTests.m */,
+				D84DCB2824ADB3E100375353 /* BirthdayCakeCandlesTests.m */,
 			);
 			path = Warmup;
 			sourceTree = "<group>";
@@ -275,6 +292,7 @@
 				D8D0D51E24AC3752003003B5 /* Staircase.m in Sources */,
 				D8D0D4F324AC36AE003003B5 /* AppDelegate.m in Sources */,
 				D84826A324AC68A50023F2FA /* MinMaxSum.m in Sources */,
+				D84DCB2724ADB3C900375353 /* BirthdayCakeCandles.m in Sources */,
 				D8D0D50424AC36AF003003B5 /* main.m in Sources */,
 				D8D0D4F624AC36AE003003B5 /* SceneDelegate.m in Sources */,
 			);
@@ -285,9 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D0D52124AC37C1003003B5 /* Staircase.m in Sources */,
+				D84DCB2924ADB3E100375353 /* BirthdayCakeCandlesTests.m in Sources */,
 				D84826A524AC68B70023F2FA /* MinMaxSumTests.m in Sources */,
 				D84826A624AC68C00023F2FA /* MinMaxSum.m in Sources */,
 				D8D0D52024AC376A003003B5 /* StaircaseTests.m in Sources */,
+				D84DCB2A24ADB4E400375353 /* BirthdayCakeCandles.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
