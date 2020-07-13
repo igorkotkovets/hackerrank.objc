@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D87B93EF24B9A389009B4EF9 /* circular-array-rotation in Resources */ = {isa = PBXBuildFile; fileRef = D87B93EE24B9A389009B4EF9 /* circular-array-rotation */; };
 		D89BCF1424B2F8C60021129D /* CircularArrayRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D89BCF1324B2F8C60021129D /* CircularArrayRotation.m */; };
 		D89BCF1A24B2FEF60021129D /* CircularArrayRotationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D89BCF1924B2FEF60021129D /* CircularArrayRotationTests.m */; };
 		D89BCF1B24B300150021129D /* CircularArrayRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D89BCF1324B2F8C60021129D /* CircularArrayRotation.m */; };
@@ -27,6 +28,9 @@
 		D8A5E7FB24AE5942001C7D25 /* MinMaxSum.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E7E424AE5901001C7D25 /* MinMaxSum.m */; };
 		D8A5E7FC24AE5947001C7D25 /* TeamFormation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E7D824AE5901001C7D25 /* TeamFormation.m */; };
 		D8A5E7FE24AE5B80001C7D25 /* TeamFormationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E7FD24AE5B80001C7D25 /* TeamFormationTests.m */; };
+		D8ECBE5924B39D7C00AB90C4 /* AccessElementInShiftedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ECBE5824B39D7C00AB90C4 /* AccessElementInShiftedArray.m */; };
+		D8ECBE5C24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ECBE5B24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m */; };
+		D8ECBE5D24B39DCB00AB90C4 /* AccessElementInShiftedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ECBE5824B39D7C00AB90C4 /* AccessElementInShiftedArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D87B93EE24B9A389009B4EF9 /* circular-array-rotation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "circular-array-rotation"; sourceTree = "<group>"; };
 		D89BCF1224B2F8C60021129D /* CircularArrayRotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularArrayRotation.h; sourceTree = "<group>"; };
 		D89BCF1324B2F8C60021129D /* CircularArrayRotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularArrayRotation.m; sourceTree = "<group>"; };
 		D89BCF1924B2FEF60021129D /* CircularArrayRotationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularArrayRotationTests.m; sourceTree = "<group>"; };
@@ -65,6 +70,9 @@
 		D8A5E7F124AE5914001C7D25 /* TimeConversionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeConversionTests.m; sourceTree = "<group>"; };
 		D8A5E7F224AE5914001C7D25 /* BirthdayCakeCandlesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayCakeCandlesTests.m; sourceTree = "<group>"; };
 		D8A5E7FD24AE5B80001C7D25 /* TeamFormationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamFormationTests.m; sourceTree = "<group>"; };
+		D8ECBE5724B39D7C00AB90C4 /* AccessElementInShiftedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessElementInShiftedArray.h; sourceTree = "<group>"; };
+		D8ECBE5824B39D7C00AB90C4 /* AccessElementInShiftedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessElementInShiftedArray.m; sourceTree = "<group>"; };
+		D8ECBE5B24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessElementInShiftedArrayTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D87B93ED24B9A375009B4EF9 /* CircularArrayRotationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D87B93EE24B9A389009B4EF9 /* circular-array-rotation */,
+				D89BCF1924B2FEF60021129D /* CircularArrayRotationTests.m */,
+			);
+			path = CircularArrayRotationTests;
+			sourceTree = "<group>";
+		};
+		D87B93F024B9A3AE009B4EF9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		D89BCF1124B2F6FD0021129D /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +121,7 @@
 		D89BCF1524B2F8D50021129D /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
-				D89BCF1924B2FEF60021129D /* CircularArrayRotationTests.m */,
+				D87B93ED24B9A375009B4EF9 /* CircularArrayRotationTests */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -123,6 +147,8 @@
 		D8A5E7C124AE5898001C7D25 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				D87B93F024B9A3AE009B4EF9 /* Core */,
+				D8ECBE5624B39D4400AB90C4 /* Experiments */,
 				D8A5E7D524AE5901001C7D25 /* Algorithms */,
 				D8A5E7C224AE5898001C7D25 /* main.m */,
 			);
@@ -132,6 +158,7 @@
 		D8A5E7CE24AE58AC001C7D25 /* HackerRankTests */ = {
 			isa = PBXGroup;
 			children = (
+				D8ECBE5A24B39D9000AB90C4 /* Experiments */,
 				D8A5E7EB24AE5914001C7D25 /* Algorithms */,
 				D8A5E7CF24AE58AC001C7D25 /* HackerRankTests.m */,
 				D8A5E7D124AE58AC001C7D25 /* Info.plist */,
@@ -234,6 +261,23 @@
 			path = Warmup;
 			sourceTree = "<group>";
 		};
+		D8ECBE5624B39D4400AB90C4 /* Experiments */ = {
+			isa = PBXGroup;
+			children = (
+				D8ECBE5724B39D7C00AB90C4 /* AccessElementInShiftedArray.h */,
+				D8ECBE5824B39D7C00AB90C4 /* AccessElementInShiftedArray.m */,
+			);
+			path = Experiments;
+			sourceTree = "<group>";
+		};
+		D8ECBE5A24B39D9000AB90C4 /* Experiments */ = {
+			isa = PBXGroup;
+			children = (
+				D8ECBE5B24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m */,
+			);
+			path = Experiments;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -312,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87B93EF24B9A389009B4EF9 /* circular-array-rotation in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +371,7 @@
 				D8A5E7E924AE5901001C7D25 /* Staircase.m in Sources */,
 				D8A5E7E624AE5901001C7D25 /* TeamFormation.m in Sources */,
 				D8A5E7EA24AE5901001C7D25 /* MinMaxSum.m in Sources */,
+				D8ECBE5924B39D7C00AB90C4 /* AccessElementInShiftedArray.m in Sources */,
 				D89BCF1424B2F8C60021129D /* CircularArrayRotation.m in Sources */,
 				D8A5E7C324AE5898001C7D25 /* main.m in Sources */,
 				D8A5E7E724AE5901001C7D25 /* BirthdayCakeCandles.m in Sources */,
@@ -342,11 +388,13 @@
 				D8A5E7F524AE5914001C7D25 /* MinMaxSumTests.m in Sources */,
 				D89BCF1B24B300150021129D /* CircularArrayRotation.m in Sources */,
 				D8A5E7D024AE58AC001C7D25 /* HackerRankTests.m in Sources */,
+				D8ECBE5C24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m in Sources */,
 				D8A5E7FC24AE5947001C7D25 /* TeamFormation.m in Sources */,
 				D8A5E7F924AE593A001C7D25 /* TimeConversion.m in Sources */,
 				D8A5E7F624AE5914001C7D25 /* TimeConversionTests.m in Sources */,
 				D8A5E7FA24AE593F001C7D25 /* Staircase.m in Sources */,
 				D8A5E7F724AE5914001C7D25 /* BirthdayCakeCandlesTests.m in Sources */,
+				D8ECBE5D24B39DCB00AB90C4 /* AccessElementInShiftedArray.m in Sources */,
 				D89BCF1A24B2FEF60021129D /* CircularArrayRotationTests.m in Sources */,
 				D8A5E7F824AE5934001C7D25 /* BirthdayCakeCandles.m in Sources */,
 			);
