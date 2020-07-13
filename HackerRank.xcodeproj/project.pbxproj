@@ -28,6 +28,9 @@
 		D8A5E7FB24AE5942001C7D25 /* MinMaxSum.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E7E424AE5901001C7D25 /* MinMaxSum.m */; };
 		D8A5E7FC24AE5947001C7D25 /* TeamFormation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E7D824AE5901001C7D25 /* TeamFormation.m */; };
 		D8A5E7FE24AE5B80001C7D25 /* TeamFormationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E7FD24AE5B80001C7D25 /* TeamFormationTests.m */; };
+		D8DD3A2424BCD589001D4921 /* AppleAndOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */; };
+		D8DD3A2724BCD6EB001D4921 /* AppleAndOrangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2624BCD6EB001D4921 /* AppleAndOrangeTests.m */; };
+		D8DD3A2824BCD6FD001D4921 /* AppleAndOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */; };
 		D8ECBE5924B39D7C00AB90C4 /* AccessElementInShiftedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ECBE5824B39D7C00AB90C4 /* AccessElementInShiftedArray.m */; };
 		D8ECBE5C24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ECBE5B24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m */; };
 		D8ECBE5D24B39DCB00AB90C4 /* AccessElementInShiftedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ECBE5824B39D7C00AB90C4 /* AccessElementInShiftedArray.m */; };
@@ -70,6 +73,9 @@
 		D8A5E7F124AE5914001C7D25 /* TimeConversionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeConversionTests.m; sourceTree = "<group>"; };
 		D8A5E7F224AE5914001C7D25 /* BirthdayCakeCandlesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayCakeCandlesTests.m; sourceTree = "<group>"; };
 		D8A5E7FD24AE5B80001C7D25 /* TeamFormationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamFormationTests.m; sourceTree = "<group>"; };
+		D8DD3A2224BCD589001D4921 /* AppleAndOrange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleAndOrange.h; sourceTree = "<group>"; };
+		D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleAndOrange.m; sourceTree = "<group>"; };
+		D8DD3A2624BCD6EB001D4921 /* AppleAndOrangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleAndOrangeTests.m; sourceTree = "<group>"; };
 		D8ECBE5724B39D7C00AB90C4 /* AccessElementInShiftedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessElementInShiftedArray.h; sourceTree = "<group>"; };
 		D8ECBE5824B39D7C00AB90C4 /* AccessElementInShiftedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessElementInShiftedArray.m; sourceTree = "<group>"; };
 		D8ECBE5B24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessElementInShiftedArrayTests.m; sourceTree = "<group>"; };
@@ -112,8 +118,8 @@
 		D89BCF1124B2F6FD0021129D /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
-				D89BCF1224B2F8C60021129D /* CircularArrayRotation.h */,
-				D89BCF1324B2F8C60021129D /* CircularArrayRotation.m */,
+				D8DD3A2124BCD552001D4921 /* Apple and Orange */,
+				D8DD3A2024BCD532001D4921 /* Circular Array Rotation */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -121,6 +127,7 @@
 		D89BCF1524B2F8D50021129D /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
+				D8DD3A2524BCD6D0001D4921 /* Apple and Orange */,
 				D87B93ED24B9A375009B4EF9 /* CircularArrayRotationTests */,
 			);
 			path = Implementation;
@@ -261,6 +268,32 @@
 			path = Warmup;
 			sourceTree = "<group>";
 		};
+		D8DD3A2024BCD532001D4921 /* Circular Array Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				D89BCF1224B2F8C60021129D /* CircularArrayRotation.h */,
+				D89BCF1324B2F8C60021129D /* CircularArrayRotation.m */,
+			);
+			path = "Circular Array Rotation";
+			sourceTree = "<group>";
+		};
+		D8DD3A2124BCD552001D4921 /* Apple and Orange */ = {
+			isa = PBXGroup;
+			children = (
+				D8DD3A2224BCD589001D4921 /* AppleAndOrange.h */,
+				D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */,
+			);
+			path = "Apple and Orange";
+			sourceTree = "<group>";
+		};
+		D8DD3A2524BCD6D0001D4921 /* Apple and Orange */ = {
+			isa = PBXGroup;
+			children = (
+				D8DD3A2624BCD6EB001D4921 /* AppleAndOrangeTests.m */,
+			);
+			path = "Apple and Orange";
+			sourceTree = "<group>";
+		};
 		D8ECBE5624B39D4400AB90C4 /* Experiments */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,6 +402,7 @@
 			files = (
 				D8A5E7E824AE5901001C7D25 /* TimeConversion.m in Sources */,
 				D8A5E7E924AE5901001C7D25 /* Staircase.m in Sources */,
+				D8DD3A2424BCD589001D4921 /* AppleAndOrange.m in Sources */,
 				D8A5E7E624AE5901001C7D25 /* TeamFormation.m in Sources */,
 				D8A5E7EA24AE5901001C7D25 /* MinMaxSum.m in Sources */,
 				D8ECBE5924B39D7C00AB90C4 /* AccessElementInShiftedArray.m in Sources */,
@@ -386,8 +420,10 @@
 				D8A5E7FB24AE5942001C7D25 /* MinMaxSum.m in Sources */,
 				D8A5E7F424AE5914001C7D25 /* StaircaseTests.m in Sources */,
 				D8A5E7F524AE5914001C7D25 /* MinMaxSumTests.m in Sources */,
+				D8DD3A2724BCD6EB001D4921 /* AppleAndOrangeTests.m in Sources */,
 				D89BCF1B24B300150021129D /* CircularArrayRotation.m in Sources */,
 				D8A5E7D024AE58AC001C7D25 /* HackerRankTests.m in Sources */,
+				D8DD3A2824BCD6FD001D4921 /* AppleAndOrange.m in Sources */,
 				D8ECBE5C24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m in Sources */,
 				D8A5E7FC24AE5947001C7D25 /* TeamFormation.m in Sources */,
 				D8A5E7F924AE593A001C7D25 /* TimeConversion.m in Sources */,
