@@ -7,7 +7,7 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "YES"
+            buildForTesting = "NO"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
@@ -17,6 +17,20 @@
                BlueprintIdentifier = "D8A5E7BE24AE5898001C7D25"
                BuildableName = "HackerRank"
                BlueprintName = "HackerRank"
+               ReferencedContainer = "container:HackerRank.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D8A5E7CC24AE58AC001C7D25"
+               BuildableName = "HackerRankTests.xctest"
+               BlueprintName = "HackerRankTests"
                ReferencedContainer = "container:HackerRank.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

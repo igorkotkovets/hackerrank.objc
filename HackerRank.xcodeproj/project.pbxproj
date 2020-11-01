@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D8714C5C254EB4FB00A7007E /* SayingHi.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A72333254DA8200021B392 /* SayingHi.m */; };
 		D8714C63254EB5DD00A7007E /* TestDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D8714C62254EB5DD00A7007E /* TestDataProvider.m */; };
+		D8714C6B254F1E6700A7007E /* HackerRankLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8714C6A254F1E6700A7007E /* HackerRankLanguage.m */; };
+		D8714C70254F1EB300A7007E /* HackerRankLanguageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8714C6F254F1EB300A7007E /* HackerRankLanguageTests.m */; };
+		D8714C73254F1EBD00A7007E /* HackerRankLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8714C6A254F1E6700A7007E /* HackerRankLanguage.m */; };
 		D87B93EF24B9A389009B4EF9 /* circular-array-rotation in Resources */ = {isa = PBXBuildFile; fileRef = D87B93EE24B9A389009B4EF9 /* circular-array-rotation */; };
 		D89BCF1424B2F8C60021129D /* CircularArrayRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D89BCF1324B2F8C60021129D /* CircularArrayRotation.m */; };
 		D89BCF1A24B2FEF60021129D /* CircularArrayRotationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D89BCF1924B2FEF60021129D /* CircularArrayRotationTests.m */; };
@@ -56,6 +59,9 @@
 		D8714C60254EB5A400A7007E /* DataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
 		D8714C61254EB5DD00A7007E /* TestDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDataProvider.h; sourceTree = "<group>"; };
 		D8714C62254EB5DD00A7007E /* TestDataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDataProvider.m; sourceTree = "<group>"; };
+		D8714C69254F1E6700A7007E /* HackerRankLanguage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerRankLanguage.h; sourceTree = "<group>"; };
+		D8714C6A254F1E6700A7007E /* HackerRankLanguage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerRankLanguage.m; sourceTree = "<group>"; };
+		D8714C6F254F1EB300A7007E /* HackerRankLanguageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerRankLanguageTests.m; sourceTree = "<group>"; };
 		D87B93EE24B9A389009B4EF9 /* circular-array-rotation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "circular-array-rotation"; sourceTree = "<group>"; };
 		D89BCF1224B2F8C60021129D /* CircularArrayRotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularArrayRotation.h; sourceTree = "<group>"; };
 		D89BCF1324B2F8C60021129D /* CircularArrayRotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularArrayRotation.m; sourceTree = "<group>"; };
@@ -116,6 +122,23 @@
 				D8714C62254EB5DD00A7007E /* TestDataProvider.m */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D8714C68254F1E4900A7007E /* HackerRankLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				D8714C69254F1E6700A7007E /* HackerRankLanguage.h */,
+				D8714C6A254F1E6700A7007E /* HackerRankLanguage.m */,
+			);
+			path = HackerRankLanguage;
+			sourceTree = "<group>";
+		};
+		D8714C6E254F1E9900A7007E /* HackerRankLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				D8714C6F254F1EB300A7007E /* HackerRankLanguageTests.m */,
+			);
+			path = HackerRankLanguage;
 			sourceTree = "<group>";
 		};
 		D87B93ED24B9A375009B4EF9 /* CircularArrayRotationTests */ = {
@@ -302,6 +325,7 @@
 		D8A72330254DA7DC0021B392 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				D8714C68254F1E4900A7007E /* HackerRankLanguage */,
 				D8A72331254DA7E60021B392 /* SayingHi */,
 			);
 			path = Applications;
@@ -327,6 +351,7 @@
 		D8A72338254DA8320021B392 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				D8714C6E254F1E9900A7007E /* HackerRankLanguage */,
 				D8A72339254DA83B0021B392 /* SayingHi */,
 			);
 			path = Applications;
@@ -472,6 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8714C6B254F1E6700A7007E /* HackerRankLanguage.m in Sources */,
 				D8A5E7E824AE5901001C7D25 /* TimeConversion.m in Sources */,
 				D8A5E7E924AE5901001C7D25 /* Staircase.m in Sources */,
 				D8DD3A2424BCD589001D4921 /* AppleAndOrange.m in Sources */,
@@ -497,8 +523,10 @@
 				D8DD3A2724BCD6EB001D4921 /* AppleAndOrangeTests.m in Sources */,
 				D8714C63254EB5DD00A7007E /* TestDataProvider.m in Sources */,
 				D89BCF1B24B300150021129D /* CircularArrayRotation.m in Sources */,
+				D8714C70254F1EB300A7007E /* HackerRankLanguageTests.m in Sources */,
 				D8A5E7D024AE58AC001C7D25 /* HackerRankTests.m in Sources */,
 				D8DD3A2824BCD6FD001D4921 /* AppleAndOrange.m in Sources */,
+				D8714C73254F1EBD00A7007E /* HackerRankLanguage.m in Sources */,
 				D8ECBE5C24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m in Sources */,
 				D8A5E7FC24AE5947001C7D25 /* TeamFormation.m in Sources */,
 				D8A5E7F924AE593A001C7D25 /* TimeConversion.m in Sources */,
