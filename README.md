@@ -11,16 +11,18 @@ int main(int argc, const char* argv[]) {
         NSData *availableInputData = [[NSFileHandle fileHandleWithStandardInput] availableData];
         NSString *availableInputString = [[NSString alloc] initWithData:availableInputData encoding:NSUTF8StringEncoding];
         NSArray *availableInputArray = [availableInputString componentsSeparatedByString:@"\n"];
+        SayingHi *sayingHi = [[SayingHi alloc] init];
 
-        NSMutableData *outData = [[NSMutableData alloc] initWithLength:availableInputData.length];
+        NSMutableData *outData = [[NSMutableData alloc] initWithCapacity:availableInputData.length];
         for (NSUInteger i=0; i<availableInputArray.count; i++) {
-
-           
+            NSString *found = nil;// [sayingHi runWithInputString:availableInputArray[i]];
+            if (found.length) {
+                [outData appendData:[found dataUsingEncoding:NSUTF8StringEncoding]];
+            }
         }
 
         NSFileHandle *stdoutFileHandle = [NSFileHandle fileHandleWithStandardOutput];
         [stdoutFileHandle writeData:outData];
-
         [stdoutFileHandle closeFile];
     }
 
