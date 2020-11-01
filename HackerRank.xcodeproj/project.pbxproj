@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8714C5C254EB4FB00A7007E /* SayingHi.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A72333254DA8200021B392 /* SayingHi.m */; };
+		D8714C63254EB5DD00A7007E /* TestDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D8714C62254EB5DD00A7007E /* TestDataProvider.m */; };
 		D87B93EF24B9A389009B4EF9 /* circular-array-rotation in Resources */ = {isa = PBXBuildFile; fileRef = D87B93EE24B9A389009B4EF9 /* circular-array-rotation */; };
 		D89BCF1424B2F8C60021129D /* CircularArrayRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D89BCF1324B2F8C60021129D /* CircularArrayRotation.m */; };
 		D89BCF1A24B2FEF60021129D /* CircularArrayRotationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D89BCF1924B2FEF60021129D /* CircularArrayRotationTests.m */; };
@@ -28,6 +30,8 @@
 		D8A5E7FB24AE5942001C7D25 /* MinMaxSum.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E7E424AE5901001C7D25 /* MinMaxSum.m */; };
 		D8A5E7FC24AE5947001C7D25 /* TeamFormation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E7D824AE5901001C7D25 /* TeamFormation.m */; };
 		D8A5E7FE24AE5B80001C7D25 /* TeamFormationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E7FD24AE5B80001C7D25 /* TeamFormationTests.m */; };
+		D8A72334254DA8200021B392 /* SayingHi.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A72333254DA8200021B392 /* SayingHi.m */; };
+		D8A7233B254DA85B0021B392 /* SayingHiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7233A254DA85B0021B392 /* SayingHiTests.m */; };
 		D8DD3A2424BCD589001D4921 /* AppleAndOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */; };
 		D8DD3A2724BCD6EB001D4921 /* AppleAndOrangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2624BCD6EB001D4921 /* AppleAndOrangeTests.m */; };
 		D8DD3A2824BCD6FD001D4921 /* AppleAndOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */; };
@@ -49,6 +53,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D8714C60254EB5A400A7007E /* DataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		D8714C61254EB5DD00A7007E /* TestDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDataProvider.h; sourceTree = "<group>"; };
+		D8714C62254EB5DD00A7007E /* TestDataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDataProvider.m; sourceTree = "<group>"; };
 		D87B93EE24B9A389009B4EF9 /* circular-array-rotation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "circular-array-rotation"; sourceTree = "<group>"; };
 		D89BCF1224B2F8C60021129D /* CircularArrayRotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularArrayRotation.h; sourceTree = "<group>"; };
 		D89BCF1324B2F8C60021129D /* CircularArrayRotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularArrayRotation.m; sourceTree = "<group>"; };
@@ -73,6 +80,9 @@
 		D8A5E7F124AE5914001C7D25 /* TimeConversionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeConversionTests.m; sourceTree = "<group>"; };
 		D8A5E7F224AE5914001C7D25 /* BirthdayCakeCandlesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthdayCakeCandlesTests.m; sourceTree = "<group>"; };
 		D8A5E7FD24AE5B80001C7D25 /* TeamFormationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamFormationTests.m; sourceTree = "<group>"; };
+		D8A72332254DA8200021B392 /* SayingHi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayingHi.h; sourceTree = "<group>"; };
+		D8A72333254DA8200021B392 /* SayingHi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayingHi.m; sourceTree = "<group>"; };
+		D8A7233A254DA85B0021B392 /* SayingHiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayingHiTests.m; sourceTree = "<group>"; };
 		D8DD3A2224BCD589001D4921 /* AppleAndOrange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleAndOrange.h; sourceTree = "<group>"; };
 		D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleAndOrange.m; sourceTree = "<group>"; };
 		D8DD3A2624BCD6EB001D4921 /* AppleAndOrangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleAndOrangeTests.m; sourceTree = "<group>"; };
@@ -99,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8714C5F254EB56F00A7007E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D8714C61254EB5DD00A7007E /* TestDataProvider.h */,
+				D8714C62254EB5DD00A7007E /* TestDataProvider.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		D87B93ED24B9A375009B4EF9 /* CircularArrayRotationTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +130,7 @@
 		D87B93F024B9A3AE009B4EF9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				D8714C60254EB5A400A7007E /* DataProvider.h */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -154,6 +174,7 @@
 		D8A5E7C124AE5898001C7D25 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				D8A7232F254DA7C50021B392 /* Regex */,
 				D87B93F024B9A3AE009B4EF9 /* Core */,
 				D8ECBE5624B39D4400AB90C4 /* Experiments */,
 				D8A5E7D524AE5901001C7D25 /* Algorithms */,
@@ -165,6 +186,8 @@
 		D8A5E7CE24AE58AC001C7D25 /* HackerRankTests */ = {
 			isa = PBXGroup;
 			children = (
+				D8714C5F254EB56F00A7007E /* Helpers */,
+				D8A72337254DA8270021B392 /* Regex */,
 				D8ECBE5A24B39D9000AB90C4 /* Experiments */,
 				D8A5E7EB24AE5914001C7D25 /* Algorithms */,
 				D8A5E7CF24AE58AC001C7D25 /* HackerRankTests.m */,
@@ -266,6 +289,55 @@
 				D8A5E7F224AE5914001C7D25 /* BirthdayCakeCandlesTests.m */,
 			);
 			path = Warmup;
+			sourceTree = "<group>";
+		};
+		D8A7232F254DA7C50021B392 /* Regex */ = {
+			isa = PBXGroup;
+			children = (
+				D8A72330254DA7DC0021B392 /* Applications */,
+			);
+			path = Regex;
+			sourceTree = "<group>";
+		};
+		D8A72330254DA7DC0021B392 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				D8A72331254DA7E60021B392 /* SayingHi */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		D8A72331254DA7E60021B392 /* SayingHi */ = {
+			isa = PBXGroup;
+			children = (
+				D8A72332254DA8200021B392 /* SayingHi.h */,
+				D8A72333254DA8200021B392 /* SayingHi.m */,
+			);
+			path = SayingHi;
+			sourceTree = "<group>";
+		};
+		D8A72337254DA8270021B392 /* Regex */ = {
+			isa = PBXGroup;
+			children = (
+				D8A72338254DA8320021B392 /* Applications */,
+			);
+			path = Regex;
+			sourceTree = "<group>";
+		};
+		D8A72338254DA8320021B392 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				D8A72339254DA83B0021B392 /* SayingHi */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		D8A72339254DA83B0021B392 /* SayingHi */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7233A254DA85B0021B392 /* SayingHiTests.m */,
+			);
+			path = SayingHi;
 			sourceTree = "<group>";
 		};
 		D8DD3A2024BCD532001D4921 /* Circular Array Rotation */ = {
@@ -407,6 +479,7 @@
 				D8A5E7EA24AE5901001C7D25 /* MinMaxSum.m in Sources */,
 				D8ECBE5924B39D7C00AB90C4 /* AccessElementInShiftedArray.m in Sources */,
 				D89BCF1424B2F8C60021129D /* CircularArrayRotation.m in Sources */,
+				D8A72334254DA8200021B392 /* SayingHi.m in Sources */,
 				D8A5E7C324AE5898001C7D25 /* main.m in Sources */,
 				D8A5E7E724AE5901001C7D25 /* BirthdayCakeCandles.m in Sources */,
 			);
@@ -417,10 +490,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8A5E7FE24AE5B80001C7D25 /* TeamFormationTests.m in Sources */,
+				D8A7233B254DA85B0021B392 /* SayingHiTests.m in Sources */,
 				D8A5E7FB24AE5942001C7D25 /* MinMaxSum.m in Sources */,
 				D8A5E7F424AE5914001C7D25 /* StaircaseTests.m in Sources */,
 				D8A5E7F524AE5914001C7D25 /* MinMaxSumTests.m in Sources */,
 				D8DD3A2724BCD6EB001D4921 /* AppleAndOrangeTests.m in Sources */,
+				D8714C63254EB5DD00A7007E /* TestDataProvider.m in Sources */,
 				D89BCF1B24B300150021129D /* CircularArrayRotation.m in Sources */,
 				D8A5E7D024AE58AC001C7D25 /* HackerRankTests.m in Sources */,
 				D8DD3A2824BCD6FD001D4921 /* AppleAndOrange.m in Sources */,
@@ -433,6 +508,7 @@
 				D8ECBE5D24B39DCB00AB90C4 /* AccessElementInShiftedArray.m in Sources */,
 				D89BCF1A24B2FEF60021129D /* CircularArrayRotationTests.m in Sources */,
 				D8A5E7F824AE5934001C7D25 /* BirthdayCakeCandles.m in Sources */,
+				D8714C5C254EB4FB00A7007E /* SayingHi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
