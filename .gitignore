@@ -34,3 +34,6 @@ Pods/
 
 # Jazzy generated docs
 docs/
+
+prog
+compile-and-run.sh~
