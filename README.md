@@ -41,3 +41,8 @@ int main(int argc, const char* argv[]) {
     return 0;
 }
 ```
+
+Compile `main.m` file
+```bash
+$ clang -fobjc-arc main.m -o prog1
+```
