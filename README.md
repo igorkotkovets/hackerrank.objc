@@ -7,10 +7,10 @@ Template for INPUT / OUTPUT tasks
 ```objc
 #import <Foundation/Foundation.h>
 
-@interface ProblemSolution : NSObject
+@interface ProblemSolving : NSObject
 @end
 
-@implementation ProblemSolution
+@implementation ProblemSolving
 - (NSString *)solveWithInputString:(NSString *)string {
     // code here
     return nil;;
@@ -22,7 +22,7 @@ int main(int argc, const char* argv[]) {
         NSData *availableInputData = [[NSFileHandle fileHandleWithStandardInput] availableData];
         NSString *availableInputString = [[NSString alloc] initWithData:availableInputData encoding:NSUTF8StringEncoding];
         NSArray *availableInputArray = [availableInputString componentsSeparatedByString:@"\n"];
-        ProblemSolution *solution = [[ProblemSolution alloc] init];
+        ProblemSolution *solution = [[ProblemSolving alloc] init];
 
         NSMutableData *outData = [[NSMutableData alloc] initWithCapacity:availableInputData.length];
         for (NSUInteger i=0; i<availableInputArray.count; i++) {
