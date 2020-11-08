@@ -17,6 +17,10 @@
 		D867136F2557F18F006AA1DB /* pythonfun0.py in Resources */ = {isa = PBXBuildFile; fileRef = D867136E2557F18F006AA1DB /* pythonfun0.py */; };
 		D867137B2557F2CF006AA1DB /* pythonfun1.py in Resources */ = {isa = PBXBuildFile; fileRef = D867137A2557F2CF006AA1DB /* pythonfun1.py */; };
 		D867137F2557F2DC006AA1DB /* pythonfun2.py in Resources */ = {isa = PBXBuildFile; fileRef = D867137E2557F2DC006AA1DB /* pythonfun2.py */; };
+		D86713872558192E006AA1DB /* SplitThePhoneNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = D86713862558192E006AA1DB /* SplitThePhoneNumbers.m */; };
+		D867138E25581ADA006AA1DB /* SplitThePhoneNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D867138D25581ADA006AA1DB /* SplitThePhoneNumbersTests.m */; };
+		D867139325581B02006AA1DB /* SplitThePhoneNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = D86713862558192E006AA1DB /* SplitThePhoneNumbers.m */; };
+		D86713972558278D006AA1DB /* split-the-phone-numbers0.txt in Resources */ = {isa = PBXBuildFile; fileRef = D86713962558278D006AA1DB /* split-the-phone-numbers0.txt */; };
 		D8714C5C254EB4FB00A7007E /* SayingHi.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A72333254DA8200021B392 /* SayingHi.m */; };
 		D8714C63254EB5DD00A7007E /* TestDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D8714C62254EB5DD00A7007E /* TestDataProvider.m */; };
 		D8714C6B254F1E6700A7007E /* HackerRankLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8714C6A254F1E6700A7007E /* HackerRankLanguage.m */; };
@@ -82,6 +86,10 @@
 		D867136E2557F18F006AA1DB /* pythonfun0.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonfun0.py; sourceTree = "<group>"; };
 		D867137A2557F2CF006AA1DB /* pythonfun1.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonfun1.py; sourceTree = "<group>"; };
 		D867137E2557F2DC006AA1DB /* pythonfun2.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonfun2.py; sourceTree = "<group>"; };
+		D86713852558192E006AA1DB /* SplitThePhoneNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitThePhoneNumbers.h; sourceTree = "<group>"; };
+		D86713862558192E006AA1DB /* SplitThePhoneNumbers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitThePhoneNumbers.m; sourceTree = "<group>"; };
+		D867138D25581ADA006AA1DB /* SplitThePhoneNumbersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitThePhoneNumbersTests.m; sourceTree = "<group>"; };
+		D86713962558278D006AA1DB /* split-the-phone-numbers0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "split-the-phone-numbers0.txt"; sourceTree = "<group>"; };
 		D8714C60254EB5A400A7007E /* DataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
 		D8714C61254EB5DD00A7007E /* TestDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDataProvider.h; sourceTree = "<group>"; };
 		D8714C62254EB5DD00A7007E /* TestDataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDataProvider.m; sourceTree = "<group>"; };
@@ -165,6 +173,24 @@
 				D82739A12551317D00242179 /* c0.c */,
 			);
 			path = LanguageDetection;
+			sourceTree = "<group>";
+		};
+		D867138425581913006AA1DB /* SplitThePhoneNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				D86713852558192E006AA1DB /* SplitThePhoneNumbers.h */,
+				D86713862558192E006AA1DB /* SplitThePhoneNumbers.m */,
+			);
+			path = SplitThePhoneNumbers;
+			sourceTree = "<group>";
+		};
+		D867138C25581AC1006AA1DB /* SplitThePhoneNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				D867138D25581ADA006AA1DB /* SplitThePhoneNumbersTests.m */,
+				D86713962558278D006AA1DB /* split-the-phone-numbers0.txt */,
+			);
+			path = SplitThePhoneNumbers;
 			sourceTree = "<group>";
 		};
 		D8714C5F254EB56F00A7007E /* Helpers */ = {
@@ -377,6 +403,7 @@
 		D8A72330254DA7DC0021B392 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				D867138425581913006AA1DB /* SplitThePhoneNumbers */,
 				D827399325512F4B00242179 /* LanguageDetection */,
 				D8714C68254F1E4900A7007E /* HackerRankLanguage */,
 				D8A72331254DA7E60021B392 /* SayingHi */,
@@ -404,6 +431,7 @@
 		D8A72338254DA8320021B392 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				D867138C25581AC1006AA1DB /* SplitThePhoneNumbers */,
 				D827399925512F9F00242179 /* LanguageDetection */,
 				D8714C6E254F1E9900A7007E /* HackerRankLanguage */,
 				D8A72339254DA83B0021B392 /* SayingHi */,
@@ -548,6 +576,7 @@
 				D8BD1DE925556A5800A639F0 /* java1.java in Resources */,
 				D867136F2557F18F006AA1DB /* pythonfun0.py in Resources */,
 				D867137F2557F2DC006AA1DB /* pythonfun2.py in Resources */,
+				D86713972558278D006AA1DB /* split-the-phone-numbers0.txt in Resources */,
 				D8BD1DEA25556A5800A639F0 /* java2.java in Resources */,
 				D867137B2557F2CF006AA1DB /* pythonfun1.py in Resources */,
 			);
@@ -569,6 +598,7 @@
 				D8ECBE5924B39D7C00AB90C4 /* AccessElementInShiftedArray.m in Sources */,
 				D89BCF1424B2F8C60021129D /* CircularArrayRotation.m in Sources */,
 				D8A72334254DA8200021B392 /* SayingHi.m in Sources */,
+				D86713872558192E006AA1DB /* SplitThePhoneNumbers.m in Sources */,
 				D827399625512F8600242179 /* LanguageDetection.m in Sources */,
 				D8A5E7C324AE5898001C7D25 /* main.m in Sources */,
 				D8A5E7E724AE5901001C7D25 /* BirthdayCakeCandles.m in Sources */,
@@ -582,10 +612,12 @@
 				D8A5E7FE24AE5B80001C7D25 /* TeamFormationTests.m in Sources */,
 				D8A7233B254DA85B0021B392 /* SayingHiTests.m in Sources */,
 				D8A5E7FB24AE5942001C7D25 /* MinMaxSum.m in Sources */,
+				D867138E25581ADA006AA1DB /* SplitThePhoneNumbersTests.m in Sources */,
 				D8A5E7F424AE5914001C7D25 /* StaircaseTests.m in Sources */,
 				D8A5E7F524AE5914001C7D25 /* MinMaxSumTests.m in Sources */,
 				D8DD3A2724BCD6EB001D4921 /* AppleAndOrangeTests.m in Sources */,
 				D8BD1DE325556A2400A639F0 /* java1.java in Sources */,
+				D867139325581B02006AA1DB /* SplitThePhoneNumbers.m in Sources */,
 				D8714C63254EB5DD00A7007E /* TestDataProvider.m in Sources */,
 				D89BCF1B24B300150021129D /* CircularArrayRotation.m in Sources */,
 				D827399B25512FB300242179 /* LanguageDetectionTests.m in Sources */,
