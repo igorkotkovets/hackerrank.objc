@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D827399625512F8600242179 /* LanguageDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = D827399525512F8600242179 /* LanguageDetection.m */; };
+		D827399B25512FB300242179 /* LanguageDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D827399A25512FB300242179 /* LanguageDetectionTests.m */; };
+		D827399E25512FBB00242179 /* LanguageDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = D827399525512F8600242179 /* LanguageDetection.m */; };
+		D82739A42551317D00242179 /* c0.c in Resources */ = {isa = PBXBuildFile; fileRef = D82739A12551317D00242179 /* c0.c */; };
+		D82739A52551317D00242179 /* python0.py in Resources */ = {isa = PBXBuildFile; fileRef = D82739A22551317D00242179 /* python0.py */; };
+		D82739A62551317D00242179 /* java0.java in Resources */ = {isa = PBXBuildFile; fileRef = D82739A32551317D00242179 /* java0.java */; };
+		D838A47F2555529A000DD090 /* python1.py in Resources */ = {isa = PBXBuildFile; fileRef = D838A47C2555529A000DD090 /* python1.py */; };
+		D867136F2557F18F006AA1DB /* pythonfun0.py in Resources */ = {isa = PBXBuildFile; fileRef = D867136E2557F18F006AA1DB /* pythonfun0.py */; };
+		D867137B2557F2CF006AA1DB /* pythonfun1.py in Resources */ = {isa = PBXBuildFile; fileRef = D867137A2557F2CF006AA1DB /* pythonfun1.py */; };
+		D867137F2557F2DC006AA1DB /* pythonfun2.py in Resources */ = {isa = PBXBuildFile; fileRef = D867137E2557F2DC006AA1DB /* pythonfun2.py */; };
 		D8714C5C254EB4FB00A7007E /* SayingHi.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A72333254DA8200021B392 /* SayingHi.m */; };
 		D8714C63254EB5DD00A7007E /* TestDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D8714C62254EB5DD00A7007E /* TestDataProvider.m */; };
 		D8714C6B254F1E6700A7007E /* HackerRankLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8714C6A254F1E6700A7007E /* HackerRankLanguage.m */; };
@@ -35,6 +45,10 @@
 		D8A5E7FE24AE5B80001C7D25 /* TeamFormationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A5E7FD24AE5B80001C7D25 /* TeamFormationTests.m */; };
 		D8A72334254DA8200021B392 /* SayingHi.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A72333254DA8200021B392 /* SayingHi.m */; };
 		D8A7233B254DA85B0021B392 /* SayingHiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7233A254DA85B0021B392 /* SayingHiTests.m */; };
+		D8BD1DE325556A2400A639F0 /* java1.java in Sources */ = {isa = PBXBuildFile; fileRef = D838A47E2555529A000DD090 /* java1.java */; };
+		D8BD1DE625556A2800A639F0 /* java2.java in Sources */ = {isa = PBXBuildFile; fileRef = D838A47D2555529A000DD090 /* java2.java */; };
+		D8BD1DE925556A5800A639F0 /* java1.java in Resources */ = {isa = PBXBuildFile; fileRef = D838A47E2555529A000DD090 /* java1.java */; };
+		D8BD1DEA25556A5800A639F0 /* java2.java in Resources */ = {isa = PBXBuildFile; fileRef = D838A47D2555529A000DD090 /* java2.java */; };
 		D8DD3A2424BCD589001D4921 /* AppleAndOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */; };
 		D8DD3A2724BCD6EB001D4921 /* AppleAndOrangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2624BCD6EB001D4921 /* AppleAndOrangeTests.m */; };
 		D8DD3A2824BCD6FD001D4921 /* AppleAndOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */; };
@@ -56,6 +70,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D827399425512F8600242179 /* LanguageDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageDetection.h; sourceTree = "<group>"; };
+		D827399525512F8600242179 /* LanguageDetection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageDetection.m; sourceTree = "<group>"; };
+		D827399A25512FB300242179 /* LanguageDetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageDetectionTests.m; sourceTree = "<group>"; };
+		D82739A12551317D00242179 /* c0.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c; fileEncoding = 4; path = c0.c; sourceTree = "<group>"; };
+		D82739A22551317D00242179 /* python0.py */ = {isa = PBXFileReference; explicitFileType = text.script.python; fileEncoding = 4; path = python0.py; sourceTree = "<group>"; };
+		D82739A32551317D00242179 /* java0.java */ = {isa = PBXFileReference; explicitFileType = sourcecode.java; fileEncoding = 4; path = java0.java; sourceTree = "<group>"; };
+		D838A47C2555529A000DD090 /* python1.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = python1.py; sourceTree = "<group>"; };
+		D838A47D2555529A000DD090 /* java2.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = java2.java; sourceTree = "<group>"; };
+		D838A47E2555529A000DD090 /* java1.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = java1.java; sourceTree = "<group>"; };
+		D867136E2557F18F006AA1DB /* pythonfun0.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonfun0.py; sourceTree = "<group>"; };
+		D867137A2557F2CF006AA1DB /* pythonfun1.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonfun1.py; sourceTree = "<group>"; };
+		D867137E2557F2DC006AA1DB /* pythonfun2.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonfun2.py; sourceTree = "<group>"; };
 		D8714C60254EB5A400A7007E /* DataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
 		D8714C61254EB5DD00A7007E /* TestDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDataProvider.h; sourceTree = "<group>"; };
 		D8714C62254EB5DD00A7007E /* TestDataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDataProvider.m; sourceTree = "<group>"; };
@@ -115,6 +141,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D827399325512F4B00242179 /* LanguageDetection */ = {
+			isa = PBXGroup;
+			children = (
+				D827399425512F8600242179 /* LanguageDetection.h */,
+				D827399525512F8600242179 /* LanguageDetection.m */,
+			);
+			path = LanguageDetection;
+			sourceTree = "<group>";
+		};
+		D827399925512F9F00242179 /* LanguageDetection */ = {
+			isa = PBXGroup;
+			children = (
+				D827399A25512FB300242179 /* LanguageDetectionTests.m */,
+				D82739A32551317D00242179 /* java0.java */,
+				D838A47E2555529A000DD090 /* java1.java */,
+				D838A47D2555529A000DD090 /* java2.java */,
+				D838A47C2555529A000DD090 /* python1.py */,
+				D867136E2557F18F006AA1DB /* pythonfun0.py */,
+				D867137A2557F2CF006AA1DB /* pythonfun1.py */,
+				D867137E2557F2DC006AA1DB /* pythonfun2.py */,
+				D82739A22551317D00242179 /* python0.py */,
+				D82739A12551317D00242179 /* c0.c */,
+			);
+			path = LanguageDetection;
+			sourceTree = "<group>";
+		};
 		D8714C5F254EB56F00A7007E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -325,6 +377,7 @@
 		D8A72330254DA7DC0021B392 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				D827399325512F4B00242179 /* LanguageDetection */,
 				D8714C68254F1E4900A7007E /* HackerRankLanguage */,
 				D8A72331254DA7E60021B392 /* SayingHi */,
 			);
@@ -351,6 +404,7 @@
 		D8A72338254DA8320021B392 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				D827399925512F9F00242179 /* LanguageDetection */,
 				D8714C6E254F1E9900A7007E /* HackerRankLanguage */,
 				D8A72339254DA83B0021B392 /* SayingHi */,
 			);
@@ -487,6 +541,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D87B93EF24B9A389009B4EF9 /* circular-array-rotation in Resources */,
+				D82739A42551317D00242179 /* c0.c in Resources */,
+				D838A47F2555529A000DD090 /* python1.py in Resources */,
+				D82739A52551317D00242179 /* python0.py in Resources */,
+				D82739A62551317D00242179 /* java0.java in Resources */,
+				D8BD1DE925556A5800A639F0 /* java1.java in Resources */,
+				D867136F2557F18F006AA1DB /* pythonfun0.py in Resources */,
+				D867137F2557F2DC006AA1DB /* pythonfun2.py in Resources */,
+				D8BD1DEA25556A5800A639F0 /* java2.java in Resources */,
+				D867137B2557F2CF006AA1DB /* pythonfun1.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +569,7 @@
 				D8ECBE5924B39D7C00AB90C4 /* AccessElementInShiftedArray.m in Sources */,
 				D89BCF1424B2F8C60021129D /* CircularArrayRotation.m in Sources */,
 				D8A72334254DA8200021B392 /* SayingHi.m in Sources */,
+				D827399625512F8600242179 /* LanguageDetection.m in Sources */,
 				D8A5E7C324AE5898001C7D25 /* main.m in Sources */,
 				D8A5E7E724AE5901001C7D25 /* BirthdayCakeCandles.m in Sources */,
 			);
@@ -521,9 +585,13 @@
 				D8A5E7F424AE5914001C7D25 /* StaircaseTests.m in Sources */,
 				D8A5E7F524AE5914001C7D25 /* MinMaxSumTests.m in Sources */,
 				D8DD3A2724BCD6EB001D4921 /* AppleAndOrangeTests.m in Sources */,
+				D8BD1DE325556A2400A639F0 /* java1.java in Sources */,
 				D8714C63254EB5DD00A7007E /* TestDataProvider.m in Sources */,
 				D89BCF1B24B300150021129D /* CircularArrayRotation.m in Sources */,
+				D827399B25512FB300242179 /* LanguageDetectionTests.m in Sources */,
+				D827399E25512FBB00242179 /* LanguageDetection.m in Sources */,
 				D8714C70254F1EB300A7007E /* HackerRankLanguageTests.m in Sources */,
+				D8BD1DE625556A2800A639F0 /* java2.java in Sources */,
 				D8A5E7D024AE58AC001C7D25 /* HackerRankTests.m in Sources */,
 				D8DD3A2824BCD6FD001D4921 /* AppleAndOrange.m in Sources */,
 				D8714C73254F1EBD00A7007E /* HackerRankLanguage.m in Sources */,
