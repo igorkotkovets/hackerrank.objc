@@ -37,3 +37,7 @@ docs/
 
 prog
 compile-and-run.sh~
+
+# emacs
+\#*\#
+.\#*

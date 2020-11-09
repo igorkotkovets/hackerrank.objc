@@ -1,6 +1,6 @@
 
 #import <Foundation/Foundation.h>
-#import "SplitThePhoneNumbers.h"
+#import "DetectHTMLAttributes.h"
 
 
 
@@ -8,20 +8,32 @@ int main(int argc, const char* argv[]) {
     @autoreleasepool {
         NSData *availableInputData = [[NSFileHandle fileHandleWithStandardInput] availableData];
         NSString *availableInputString = [[NSString alloc] initWithData:availableInputData encoding:NSUTF8StringEncoding];
-        NSArray *availableInputArray = [availableInputString componentsSeparatedByString:@"\n"];
-        SplitThePhoneNumbers *solution = [[SplitThePhoneNumbers alloc] init];
+        DetectHTMLAttributes *solution = [[DetectHTMLAttributes alloc] init];
 
-        NSMutableData *outData = [[NSMutableData alloc] initWithCapacity:availableInputData.length];
-        for (NSUInteger i=0; i<availableInputArray.count; i++) {
-            NSString *found = [solution solveWithInputString:availableInputArray[i]];
-            if (found.length) {
-                NSString *withNewLine = [found stringByAppendingString:@"\n"];
-                [outData appendData:[withNewLine dataUsingEncoding:NSUTF8StringEncoding]];
+        NSDictionary<NSString *, NSArray<NSString *> *> *result = [solution solveWithInputString:availableInputString];
+
+        NSFileHandle *stdoutFileHandle = [NSFileHandle fileHandleWithStandardOutput];
+        NSArray *sortedKeys = [[result allKeys] sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
+        NSMutableString *line = [[NSMutableString alloc] init];
+        for (NSUInteger i=0; i<sortedKeys.count; i++) {
+            NSString *key = sortedKeys[i];
+            if(i>0){
+                [line appendString:@"\n"];
+            }
+            [line appendFormat:@"%@:", key];
+            NSArray<NSString *> *values = result[key];
+            NSArray<NSString *> *sortedValues = [values sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
+            for (NSUInteger j=0; j<sortedValues.count; j++) {
+                NSString *value = sortedValues[j];
+                if (j>0) {
+                    [line appendString:@","];
+                }
+
+                [line appendString:value];
             }
         }
 
-        NSFileHandle *stdoutFileHandle = [NSFileHandle fileHandleWithStandardOutput];
-        [stdoutFileHandle writeData:outData];
+        [stdoutFileHandle writeData:[line dataUsingEncoding:NSUTF8StringEncoding]];
         [stdoutFileHandle closeFile];
     }
 

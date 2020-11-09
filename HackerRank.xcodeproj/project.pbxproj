@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81861992559228A00E1FA9B /* detect-html-attributes06.txt in Resources */ = {isa = PBXBuildFile; fileRef = D81861972559228900E1FA9B /* detect-html-attributes06.txt */; };
+		D818619A2559228A00E1FA9B /* detect-html-attributes06.out in Resources */ = {isa = PBXBuildFile; fileRef = D81861982559228A00E1FA9B /* detect-html-attributes06.out */; };
 		D827399625512F8600242179 /* LanguageDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = D827399525512F8600242179 /* LanguageDetection.m */; };
 		D827399B25512FB300242179 /* LanguageDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D827399A25512FB300242179 /* LanguageDetectionTests.m */; };
 		D827399E25512FBB00242179 /* LanguageDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = D827399525512F8600242179 /* LanguageDetection.m */; };
@@ -21,6 +23,14 @@
 		D867138E25581ADA006AA1DB /* SplitThePhoneNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D867138D25581ADA006AA1DB /* SplitThePhoneNumbersTests.m */; };
 		D867139325581B02006AA1DB /* SplitThePhoneNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = D86713862558192E006AA1DB /* SplitThePhoneNumbers.m */; };
 		D86713972558278D006AA1DB /* split-the-phone-numbers0.txt in Resources */ = {isa = PBXBuildFile; fileRef = D86713962558278D006AA1DB /* split-the-phone-numbers0.txt */; };
+		D867139F25584522006AA1DB /* DetectHTMLAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = D867139E25584522006AA1DB /* DetectHTMLAttributes.m */; };
+		D86713A62558453E006AA1DB /* DetectHTMLAttributesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D86713A52558453E006AA1DB /* DetectHTMLAttributesTests.m */; };
+		D86713AB2558467D006AA1DB /* DetectHTMLAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = D867139E25584522006AA1DB /* DetectHTMLAttributes.m */; };
+		D86713AF255873B0006AA1DB /* detect-html-attributes01.txt in Resources */ = {isa = PBXBuildFile; fileRef = D86713AE255873B0006AA1DB /* detect-html-attributes01.txt */; };
+		D86713B325588FB5006AA1DB /* detect-html-attributes02.txt in Resources */ = {isa = PBXBuildFile; fileRef = D86713B225588FB5006AA1DB /* detect-html-attributes02.txt */; };
+		D86713B9255895ED006AA1DB /* detect-html-attributes03.txt in Resources */ = {isa = PBXBuildFile; fileRef = D86713B8255895ED006AA1DB /* detect-html-attributes03.txt */; };
+		D86713BD25589AE6006AA1DB /* detect-html-attributes04.txt in Resources */ = {isa = PBXBuildFile; fileRef = D86713BC25589AE6006AA1DB /* detect-html-attributes04.txt */; };
+		D86713C125589B32006AA1DB /* detect-html-attributes05.txt in Resources */ = {isa = PBXBuildFile; fileRef = D86713C025589B32006AA1DB /* detect-html-attributes05.txt */; };
 		D8714C5C254EB4FB00A7007E /* SayingHi.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A72333254DA8200021B392 /* SayingHi.m */; };
 		D8714C63254EB5DD00A7007E /* TestDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D8714C62254EB5DD00A7007E /* TestDataProvider.m */; };
 		D8714C6B254F1E6700A7007E /* HackerRankLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8714C6A254F1E6700A7007E /* HackerRankLanguage.m */; };
@@ -74,6 +84,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D81861972559228900E1FA9B /* detect-html-attributes06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-attributes06.txt"; sourceTree = "<group>"; };
+		D81861982559228A00E1FA9B /* detect-html-attributes06.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-attributes06.out"; sourceTree = "<group>"; };
 		D827399425512F8600242179 /* LanguageDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageDetection.h; sourceTree = "<group>"; };
 		D827399525512F8600242179 /* LanguageDetection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageDetection.m; sourceTree = "<group>"; };
 		D827399A25512FB300242179 /* LanguageDetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageDetectionTests.m; sourceTree = "<group>"; };
@@ -90,6 +102,14 @@
 		D86713862558192E006AA1DB /* SplitThePhoneNumbers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitThePhoneNumbers.m; sourceTree = "<group>"; };
 		D867138D25581ADA006AA1DB /* SplitThePhoneNumbersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitThePhoneNumbersTests.m; sourceTree = "<group>"; };
 		D86713962558278D006AA1DB /* split-the-phone-numbers0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "split-the-phone-numbers0.txt"; sourceTree = "<group>"; };
+		D867139D25584522006AA1DB /* DetectHTMLAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetectHTMLAttributes.h; sourceTree = "<group>"; };
+		D867139E25584522006AA1DB /* DetectHTMLAttributes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetectHTMLAttributes.m; sourceTree = "<group>"; };
+		D86713A52558453E006AA1DB /* DetectHTMLAttributesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetectHTMLAttributesTests.m; sourceTree = "<group>"; };
+		D86713AE255873B0006AA1DB /* detect-html-attributes01.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "detect-html-attributes01.txt"; sourceTree = "<group>"; };
+		D86713B225588FB5006AA1DB /* detect-html-attributes02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-attributes02.txt"; sourceTree = "<group>"; };
+		D86713B8255895ED006AA1DB /* detect-html-attributes03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-attributes03.txt"; sourceTree = "<group>"; };
+		D86713BC25589AE6006AA1DB /* detect-html-attributes04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-attributes04.txt"; sourceTree = "<group>"; };
+		D86713C025589B32006AA1DB /* detect-html-attributes05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-attributes05.txt"; sourceTree = "<group>"; };
 		D8714C60254EB5A400A7007E /* DataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
 		D8714C61254EB5DD00A7007E /* TestDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDataProvider.h; sourceTree = "<group>"; };
 		D8714C62254EB5DD00A7007E /* TestDataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDataProvider.m; sourceTree = "<group>"; };
@@ -191,6 +211,30 @@
 				D86713962558278D006AA1DB /* split-the-phone-numbers0.txt */,
 			);
 			path = SplitThePhoneNumbers;
+			sourceTree = "<group>";
+		};
+		D867139C25584504006AA1DB /* DetectHTMLAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				D867139D25584522006AA1DB /* DetectHTMLAttributes.h */,
+				D867139E25584522006AA1DB /* DetectHTMLAttributes.m */,
+			);
+			path = DetectHTMLAttributes;
+			sourceTree = "<group>";
+		};
+		D86713A425584527006AA1DB /* DetectHTMLAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				D86713A52558453E006AA1DB /* DetectHTMLAttributesTests.m */,
+				D86713AE255873B0006AA1DB /* detect-html-attributes01.txt */,
+				D86713B225588FB5006AA1DB /* detect-html-attributes02.txt */,
+				D86713B8255895ED006AA1DB /* detect-html-attributes03.txt */,
+				D86713BC25589AE6006AA1DB /* detect-html-attributes04.txt */,
+				D86713C025589B32006AA1DB /* detect-html-attributes05.txt */,
+				D81861982559228A00E1FA9B /* detect-html-attributes06.out */,
+				D81861972559228900E1FA9B /* detect-html-attributes06.txt */,
+			);
+			path = DetectHTMLAttributes;
 			sourceTree = "<group>";
 		};
 		D8714C5F254EB56F00A7007E /* Helpers */ = {
@@ -403,6 +447,7 @@
 		D8A72330254DA7DC0021B392 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				D867139C25584504006AA1DB /* DetectHTMLAttributes */,
 				D867138425581913006AA1DB /* SplitThePhoneNumbers */,
 				D827399325512F4B00242179 /* LanguageDetection */,
 				D8714C68254F1E4900A7007E /* HackerRankLanguage */,
@@ -431,6 +476,7 @@
 		D8A72338254DA8320021B392 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				D86713A425584527006AA1DB /* DetectHTMLAttributes */,
 				D867138C25581AC1006AA1DB /* SplitThePhoneNumbers */,
 				D827399925512F9F00242179 /* LanguageDetection */,
 				D8714C6E254F1E9900A7007E /* HackerRankLanguage */,
@@ -569,16 +615,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				D87B93EF24B9A389009B4EF9 /* circular-array-rotation in Resources */,
+				D818619A2559228A00E1FA9B /* detect-html-attributes06.out in Resources */,
 				D82739A42551317D00242179 /* c0.c in Resources */,
+				D86713AF255873B0006AA1DB /* detect-html-attributes01.txt in Resources */,
 				D838A47F2555529A000DD090 /* python1.py in Resources */,
 				D82739A52551317D00242179 /* python0.py in Resources */,
 				D82739A62551317D00242179 /* java0.java in Resources */,
+				D86713B9255895ED006AA1DB /* detect-html-attributes03.txt in Resources */,
 				D8BD1DE925556A5800A639F0 /* java1.java in Resources */,
 				D867136F2557F18F006AA1DB /* pythonfun0.py in Resources */,
+				D86713B325588FB5006AA1DB /* detect-html-attributes02.txt in Resources */,
 				D867137F2557F2DC006AA1DB /* pythonfun2.py in Resources */,
 				D86713972558278D006AA1DB /* split-the-phone-numbers0.txt in Resources */,
 				D8BD1DEA25556A5800A639F0 /* java2.java in Resources */,
+				D81861992559228A00E1FA9B /* detect-html-attributes06.txt in Resources */,
 				D867137B2557F2CF006AA1DB /* pythonfun1.py in Resources */,
+				D86713C125589B32006AA1DB /* detect-html-attributes05.txt in Resources */,
+				D86713BD25589AE6006AA1DB /* detect-html-attributes04.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +642,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D867139F25584522006AA1DB /* DetectHTMLAttributes.m in Sources */,
 				D8714C6B254F1E6700A7007E /* HackerRankLanguage.m in Sources */,
 				D8A5E7E824AE5901001C7D25 /* TimeConversion.m in Sources */,
 				D8A5E7E924AE5901001C7D25 /* Staircase.m in Sources */,
@@ -631,11 +685,13 @@
 				D8A5E7FC24AE5947001C7D25 /* TeamFormation.m in Sources */,
 				D8A5E7F924AE593A001C7D25 /* TimeConversion.m in Sources */,
 				D8A5E7F624AE5914001C7D25 /* TimeConversionTests.m in Sources */,
+				D86713AB2558467D006AA1DB /* DetectHTMLAttributes.m in Sources */,
 				D8A5E7FA24AE593F001C7D25 /* Staircase.m in Sources */,
 				D8A5E7F724AE5914001C7D25 /* BirthdayCakeCandlesTests.m in Sources */,
 				D8ECBE5D24B39DCB00AB90C4 /* AccessElementInShiftedArray.m in Sources */,
 				D89BCF1A24B2FEF60021129D /* CircularArrayRotationTests.m in Sources */,
 				D8A5E7F824AE5934001C7D25 /* BirthdayCakeCandles.m in Sources */,
+				D86713A62558453E006AA1DB /* DetectHTMLAttributesTests.m in Sources */,
 				D8714C5C254EB4FB00A7007E /* SayingHi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

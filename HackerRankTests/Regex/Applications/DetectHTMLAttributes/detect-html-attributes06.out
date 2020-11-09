@@ -1,0 +1,6 @@
+a:href,title
+area:alt,coords,href,shape,title
+center:
+div:class,style
+img:alt,height,src,srcset,style,usemap,width
+map:id,name
