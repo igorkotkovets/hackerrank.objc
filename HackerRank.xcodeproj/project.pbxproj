@@ -16,6 +16,13 @@
 		D82739A52551317D00242179 /* python0.py in Resources */ = {isa = PBXBuildFile; fileRef = D82739A22551317D00242179 /* python0.py */; };
 		D82739A62551317D00242179 /* java0.java in Resources */ = {isa = PBXBuildFile; fileRef = D82739A32551317D00242179 /* java0.java */; };
 		D838A47F2555529A000DD090 /* python1.py in Resources */ = {isa = PBXBuildFile; fileRef = D838A47C2555529A000DD090 /* python1.py */; };
+		D83E325C255BC59600C52B5A /* detect-html-links00.txt in Resources */ = {isa = PBXBuildFile; fileRef = D83E325B255BC59600C52B5A /* detect-html-links00.txt */; };
+		D83E3264255BCA2200C52B5A /* detect-html-links08.txt in Resources */ = {isa = PBXBuildFile; fileRef = D83E3263255BCA2200C52B5A /* detect-html-links08.txt */; };
+		D83E326A255BD27D00C52B5A /* detect-html-links03.txt in Resources */ = {isa = PBXBuildFile; fileRef = D83E3269255BD27D00C52B5A /* detect-html-links03.txt */; };
+		D83E326E255BDC2E00C52B5A /* detect-html-links05.txt in Resources */ = {isa = PBXBuildFile; fileRef = D83E326D255BDC2E00C52B5A /* detect-html-links05.txt */; };
+		D83E32D7255C87F200C52B5A /* detect-html-links-output05.txt in Resources */ = {isa = PBXBuildFile; fileRef = D83E32D6255C87F200C52B5A /* detect-html-links-output05.txt */; };
+		D83E32EA255C8C8B00C52B5A /* detect-html-links-input01.txt in Resources */ = {isa = PBXBuildFile; fileRef = D83E32E8255C8C8B00C52B5A /* detect-html-links-input01.txt */; };
+		D83E32EB255C8C8B00C52B5A /* detect-html-links-output01.txt in Resources */ = {isa = PBXBuildFile; fileRef = D83E32E9255C8C8B00C52B5A /* detect-html-links-output01.txt */; };
 		D867136F2557F18F006AA1DB /* pythonfun0.py in Resources */ = {isa = PBXBuildFile; fileRef = D867136E2557F18F006AA1DB /* pythonfun0.py */; };
 		D867137B2557F2CF006AA1DB /* pythonfun1.py in Resources */ = {isa = PBXBuildFile; fileRef = D867137A2557F2CF006AA1DB /* pythonfun1.py */; };
 		D867137F2557F2DC006AA1DB /* pythonfun2.py in Resources */ = {isa = PBXBuildFile; fileRef = D867137E2557F2DC006AA1DB /* pythonfun2.py */; };
@@ -69,6 +76,9 @@
 		D8ECBE5924B39D7C00AB90C4 /* AccessElementInShiftedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ECBE5824B39D7C00AB90C4 /* AccessElementInShiftedArray.m */; };
 		D8ECBE5C24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ECBE5B24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m */; };
 		D8ECBE5D24B39DCB00AB90C4 /* AccessElementInShiftedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ECBE5824B39D7C00AB90C4 /* AccessElementInShiftedArray.m */; };
+		D8EF1A50255958D600B64834 /* DetectHTMLLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EF1A4F255958D600B64834 /* DetectHTMLLinks.m */; };
+		D8EF1A552559590000B64834 /* DetectHTMLLinksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EF1A542559590000B64834 /* DetectHTMLLinksTests.m */; };
+		D8EF1A582559590400B64834 /* DetectHTMLLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EF1A4F255958D600B64834 /* DetectHTMLLinks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +105,13 @@
 		D838A47C2555529A000DD090 /* python1.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = python1.py; sourceTree = "<group>"; };
 		D838A47D2555529A000DD090 /* java2.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = java2.java; sourceTree = "<group>"; };
 		D838A47E2555529A000DD090 /* java1.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = java1.java; sourceTree = "<group>"; };
+		D83E325B255BC59600C52B5A /* detect-html-links00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-links00.txt"; sourceTree = "<group>"; };
+		D83E3263255BCA2200C52B5A /* detect-html-links08.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-links08.txt"; sourceTree = "<group>"; };
+		D83E3269255BD27D00C52B5A /* detect-html-links03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-links03.txt"; sourceTree = "<group>"; };
+		D83E326D255BDC2E00C52B5A /* detect-html-links05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-links05.txt"; sourceTree = "<group>"; };
+		D83E32D6255C87F200C52B5A /* detect-html-links-output05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-links-output05.txt"; sourceTree = "<group>"; };
+		D83E32E8255C8C8B00C52B5A /* detect-html-links-input01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-links-input01.txt"; sourceTree = "<group>"; };
+		D83E32E9255C8C8B00C52B5A /* detect-html-links-output01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "detect-html-links-output01.txt"; sourceTree = "<group>"; };
 		D867136E2557F18F006AA1DB /* pythonfun0.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonfun0.py; sourceTree = "<group>"; };
 		D867137A2557F2CF006AA1DB /* pythonfun1.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonfun1.py; sourceTree = "<group>"; };
 		D867137E2557F2DC006AA1DB /* pythonfun2.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pythonfun2.py; sourceTree = "<group>"; };
@@ -149,6 +166,9 @@
 		D8ECBE5724B39D7C00AB90C4 /* AccessElementInShiftedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessElementInShiftedArray.h; sourceTree = "<group>"; };
 		D8ECBE5824B39D7C00AB90C4 /* AccessElementInShiftedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessElementInShiftedArray.m; sourceTree = "<group>"; };
 		D8ECBE5B24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessElementInShiftedArrayTests.m; sourceTree = "<group>"; };
+		D8EF1A4E255958D600B64834 /* DetectHTMLLinks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetectHTMLLinks.h; sourceTree = "<group>"; };
+		D8EF1A4F255958D600B64834 /* DetectHTMLLinks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetectHTMLLinks.m; sourceTree = "<group>"; };
+		D8EF1A542559590000B64834 /* DetectHTMLLinksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetectHTMLLinksTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -447,6 +467,7 @@
 		D8A72330254DA7DC0021B392 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				D8EF1A4D255958A800B64834 /* DetectHTMLLinks */,
 				D867139C25584504006AA1DB /* DetectHTMLAttributes */,
 				D867138425581913006AA1DB /* SplitThePhoneNumbers */,
 				D827399325512F4B00242179 /* LanguageDetection */,
@@ -476,6 +497,7 @@
 		D8A72338254DA8320021B392 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				D8EF1A53255958DD00B64834 /* DetectHTMLLinks */,
 				D86713A425584527006AA1DB /* DetectHTMLAttributes */,
 				D867138C25581AC1006AA1DB /* SplitThePhoneNumbers */,
 				D827399925512F9F00242179 /* LanguageDetection */,
@@ -534,6 +556,30 @@
 				D8ECBE5B24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m */,
 			);
 			path = Experiments;
+			sourceTree = "<group>";
+		};
+		D8EF1A4D255958A800B64834 /* DetectHTMLLinks */ = {
+			isa = PBXGroup;
+			children = (
+				D8EF1A4E255958D600B64834 /* DetectHTMLLinks.h */,
+				D8EF1A4F255958D600B64834 /* DetectHTMLLinks.m */,
+			);
+			path = DetectHTMLLinks;
+			sourceTree = "<group>";
+		};
+		D8EF1A53255958DD00B64834 /* DetectHTMLLinks */ = {
+			isa = PBXGroup;
+			children = (
+				D83E325B255BC59600C52B5A /* detect-html-links00.txt */,
+				D83E3263255BCA2200C52B5A /* detect-html-links08.txt */,
+				D83E3269255BD27D00C52B5A /* detect-html-links03.txt */,
+				D83E326D255BDC2E00C52B5A /* detect-html-links05.txt */,
+				D83E32D6255C87F200C52B5A /* detect-html-links-output05.txt */,
+				D83E32E8255C8C8B00C52B5A /* detect-html-links-input01.txt */,
+				D83E32E9255C8C8B00C52B5A /* detect-html-links-output01.txt */,
+				D8EF1A542559590000B64834 /* DetectHTMLLinksTests.m */,
+			);
+			path = DetectHTMLLinks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -616,22 +662,29 @@
 			files = (
 				D87B93EF24B9A389009B4EF9 /* circular-array-rotation in Resources */,
 				D818619A2559228A00E1FA9B /* detect-html-attributes06.out in Resources */,
+				D83E32EA255C8C8B00C52B5A /* detect-html-links-input01.txt in Resources */,
 				D82739A42551317D00242179 /* c0.c in Resources */,
 				D86713AF255873B0006AA1DB /* detect-html-attributes01.txt in Resources */,
 				D838A47F2555529A000DD090 /* python1.py in Resources */,
+				D83E32EB255C8C8B00C52B5A /* detect-html-links-output01.txt in Resources */,
 				D82739A52551317D00242179 /* python0.py in Resources */,
 				D82739A62551317D00242179 /* java0.java in Resources */,
 				D86713B9255895ED006AA1DB /* detect-html-attributes03.txt in Resources */,
 				D8BD1DE925556A5800A639F0 /* java1.java in Resources */,
+				D83E3264255BCA2200C52B5A /* detect-html-links08.txt in Resources */,
+				D83E32D7255C87F200C52B5A /* detect-html-links-output05.txt in Resources */,
 				D867136F2557F18F006AA1DB /* pythonfun0.py in Resources */,
 				D86713B325588FB5006AA1DB /* detect-html-attributes02.txt in Resources */,
 				D867137F2557F2DC006AA1DB /* pythonfun2.py in Resources */,
 				D86713972558278D006AA1DB /* split-the-phone-numbers0.txt in Resources */,
 				D8BD1DEA25556A5800A639F0 /* java2.java in Resources */,
 				D81861992559228A00E1FA9B /* detect-html-attributes06.txt in Resources */,
+				D83E326A255BD27D00C52B5A /* detect-html-links03.txt in Resources */,
+				D83E325C255BC59600C52B5A /* detect-html-links00.txt in Resources */,
 				D867137B2557F2CF006AA1DB /* pythonfun1.py in Resources */,
 				D86713C125589B32006AA1DB /* detect-html-attributes05.txt in Resources */,
 				D86713BD25589AE6006AA1DB /* detect-html-attributes04.txt in Resources */,
+				D83E326E255BDC2E00C52B5A /* detect-html-links05.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +696,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D867139F25584522006AA1DB /* DetectHTMLAttributes.m in Sources */,
+				D8EF1A50255958D600B64834 /* DetectHTMLLinks.m in Sources */,
 				D8714C6B254F1E6700A7007E /* HackerRankLanguage.m in Sources */,
 				D8A5E7E824AE5901001C7D25 /* TimeConversion.m in Sources */,
 				D8A5E7E924AE5901001C7D25 /* Staircase.m in Sources */,
@@ -682,6 +736,7 @@
 				D8DD3A2824BCD6FD001D4921 /* AppleAndOrange.m in Sources */,
 				D8714C73254F1EBD00A7007E /* HackerRankLanguage.m in Sources */,
 				D8ECBE5C24B39D9E00AB90C4 /* AccessElementInShiftedArrayTests.m in Sources */,
+				D8EF1A552559590000B64834 /* DetectHTMLLinksTests.m in Sources */,
 				D8A5E7FC24AE5947001C7D25 /* TeamFormation.m in Sources */,
 				D8A5E7F924AE593A001C7D25 /* TimeConversion.m in Sources */,
 				D8A5E7F624AE5914001C7D25 /* TimeConversionTests.m in Sources */,
@@ -689,6 +744,7 @@
 				D8A5E7FA24AE593F001C7D25 /* Staircase.m in Sources */,
 				D8A5E7F724AE5914001C7D25 /* BirthdayCakeCandlesTests.m in Sources */,
 				D8ECBE5D24B39DCB00AB90C4 /* AccessElementInShiftedArray.m in Sources */,
+				D8EF1A582559590400B64834 /* DetectHTMLLinks.m in Sources */,
 				D89BCF1A24B2FEF60021129D /* CircularArrayRotationTests.m in Sources */,
 				D8A5E7F824AE5934001C7D25 /* BirthdayCakeCandles.m in Sources */,
 				D86713A62558453E006AA1DB /* DetectHTMLAttributesTests.m in Sources */,
