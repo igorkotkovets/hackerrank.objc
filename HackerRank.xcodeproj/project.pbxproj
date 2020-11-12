@@ -70,6 +70,9 @@
 		D8BD1DE625556A2800A639F0 /* java2.java in Sources */ = {isa = PBXBuildFile; fileRef = D838A47D2555529A000DD090 /* java2.java */; };
 		D8BD1DE925556A5800A639F0 /* java1.java in Resources */ = {isa = PBXBuildFile; fileRef = D838A47E2555529A000DD090 /* java1.java */; };
 		D8BD1DEA25556A5800A639F0 /* java2.java in Resources */ = {isa = PBXBuildFile; fileRef = D838A47D2555529A000DD090 /* java2.java */; };
+		D8DBF7B3255D029700B67C7A /* GradingStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DBF7B2255D029700B67C7A /* GradingStudents.m */; };
+		D8DBF7B8255D02BA00B67C7A /* GradingStudentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DBF7B7255D02BA00B67C7A /* GradingStudentsTests.m */; };
+		D8DBF7BB255D02C400B67C7A /* GradingStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DBF7B2255D029700B67C7A /* GradingStudents.m */; };
 		D8DD3A2424BCD589001D4921 /* AppleAndOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */; };
 		D8DD3A2724BCD6EB001D4921 /* AppleAndOrangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2624BCD6EB001D4921 /* AppleAndOrangeTests.m */; };
 		D8DD3A2824BCD6FD001D4921 /* AppleAndOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */; };
@@ -160,6 +163,9 @@
 		D8A72332254DA8200021B392 /* SayingHi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayingHi.h; sourceTree = "<group>"; };
 		D8A72333254DA8200021B392 /* SayingHi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayingHi.m; sourceTree = "<group>"; };
 		D8A7233A254DA85B0021B392 /* SayingHiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayingHiTests.m; sourceTree = "<group>"; };
+		D8DBF7B1255D029700B67C7A /* GradingStudents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradingStudents.h; sourceTree = "<group>"; };
+		D8DBF7B2255D029700B67C7A /* GradingStudents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradingStudents.m; sourceTree = "<group>"; };
+		D8DBF7B7255D02BA00B67C7A /* GradingStudentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradingStudentsTests.m; sourceTree = "<group>"; };
 		D8DD3A2224BCD589001D4921 /* AppleAndOrange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleAndOrange.h; sourceTree = "<group>"; };
 		D8DD3A2324BCD589001D4921 /* AppleAndOrange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleAndOrange.m; sourceTree = "<group>"; };
 		D8DD3A2624BCD6EB001D4921 /* AppleAndOrangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleAndOrangeTests.m; sourceTree = "<group>"; };
@@ -303,6 +309,7 @@
 		D89BCF1124B2F6FD0021129D /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
+				D8DBF7B0255D027A00B67C7A /* GradingStudents */,
 				D8DD3A2124BCD552001D4921 /* Apple and Orange */,
 				D8DD3A2024BCD532001D4921 /* Circular Array Rotation */,
 			);
@@ -312,6 +319,7 @@
 		D89BCF1524B2F8D50021129D /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
+				D8DBF7B6255D02A200B67C7A /* GradingStudents */,
 				D8DD3A2524BCD6D0001D4921 /* Apple and Orange */,
 				D87B93ED24B9A375009B4EF9 /* CircularArrayRotationTests */,
 			);
@@ -515,6 +523,23 @@
 			path = SayingHi;
 			sourceTree = "<group>";
 		};
+		D8DBF7B0255D027A00B67C7A /* GradingStudents */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBF7B1255D029700B67C7A /* GradingStudents.h */,
+				D8DBF7B2255D029700B67C7A /* GradingStudents.m */,
+			);
+			path = GradingStudents;
+			sourceTree = "<group>";
+		};
+		D8DBF7B6255D02A200B67C7A /* GradingStudents */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBF7B7255D02BA00B67C7A /* GradingStudentsTests.m */,
+			);
+			path = GradingStudents;
+			sourceTree = "<group>";
+		};
 		D8DD3A2024BCD532001D4921 /* Circular Array Rotation */ = {
 			isa = PBXGroup;
 			children = (
@@ -697,6 +722,7 @@
 			files = (
 				D867139F25584522006AA1DB /* DetectHTMLAttributes.m in Sources */,
 				D8EF1A50255958D600B64834 /* DetectHTMLLinks.m in Sources */,
+				D8DBF7B3255D029700B67C7A /* GradingStudents.m in Sources */,
 				D8714C6B254F1E6700A7007E /* HackerRankLanguage.m in Sources */,
 				D8A5E7E824AE5901001C7D25 /* TimeConversion.m in Sources */,
 				D8A5E7E924AE5901001C7D25 /* Staircase.m in Sources */,
@@ -726,12 +752,14 @@
 				D8DD3A2724BCD6EB001D4921 /* AppleAndOrangeTests.m in Sources */,
 				D8BD1DE325556A2400A639F0 /* java1.java in Sources */,
 				D867139325581B02006AA1DB /* SplitThePhoneNumbers.m in Sources */,
+				D8DBF7B8255D02BA00B67C7A /* GradingStudentsTests.m in Sources */,
 				D8714C63254EB5DD00A7007E /* TestDataProvider.m in Sources */,
 				D89BCF1B24B300150021129D /* CircularArrayRotation.m in Sources */,
 				D827399B25512FB300242179 /* LanguageDetectionTests.m in Sources */,
 				D827399E25512FBB00242179 /* LanguageDetection.m in Sources */,
 				D8714C70254F1EB300A7007E /* HackerRankLanguageTests.m in Sources */,
 				D8BD1DE625556A2800A639F0 /* java2.java in Sources */,
+				D8DBF7BB255D02C400B67C7A /* GradingStudents.m in Sources */,
 				D8A5E7D024AE58AC001C7D25 /* HackerRankTests.m in Sources */,
 				D8DD3A2824BCD6FD001D4921 /* AppleAndOrange.m in Sources */,
 				D8714C73254F1EBD00A7007E /* HackerRankLanguage.m in Sources */,
