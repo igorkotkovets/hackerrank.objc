@@ -1,1 +1,0 @@
-<li style="-moz-float-edge: content-box">cop?<br style="clear:both;" /></li>
